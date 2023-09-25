@@ -8,6 +8,7 @@ NTSTATUS DriverEntry(
     _In_ PUNICODE_STRING RegistryPath
 );
 
+//
 EVT_WDF_DRIVER_DEVICE_ADD TimerEvtDeviceAdd;
 EVT_WDF_DRIVER_UNLOAD TimerEvtWdfDriverUnload;
 
